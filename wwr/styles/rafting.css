@@ -1,6 +1,6 @@
 :root {
     --primary-color: #123B5D;
-    --secondary-color: #087e8b;
+    --secondary-color: #176B83;
     --accent1-color: #17324D;
     --accent2-color: #F28C28;
     --heading-font: "Montserrat", sans-serif;
@@ -53,6 +53,14 @@ article {
     position: relative;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 2px;
+    padding: 5px;
+    background-color: rgba(18, 59, 93, 0.7);
+    color: #fff;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -92,10 +100,11 @@ section {
 }
 
 section h2 {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: #fff;
     text-align: center;
     padding: 10px;
+    border-bottom: 3px solid var(--accent2-color)
 }
 
 section p {
