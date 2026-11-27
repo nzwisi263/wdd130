@@ -343,3 +343,8 @@ section img {
     padding: 8px;
     min-height: 150px;
 }
+
+.team-member {
+    width: 100%;
+    padding: 0 10px;
+}
